@@ -68,7 +68,11 @@
 
 @media (max-width: 800px) {
   .bicicletas-bg {
-    background: var(--cor-11);
+    background-image: linear-gradient(
+      to right,
+      var(--cor-11) 30%,
+      var(--cor-11) 30%
+    );
   }
   .bicicletas {
     grid-template-columns: 1fr;
